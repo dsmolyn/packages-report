@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+
 library(tidyverse)
 library(dplyr)
 ## deja vu from earlier!
