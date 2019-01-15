@@ -25,7 +25,7 @@ ggplot(apt_freqtable, aes(x = Built, y = n)) +
 ## write this barchart to figs/built-barchart.png
 ## if you use ggplot2, ggsave() will help
 ## idea: try using here::here() to create the file path
-ggsave("figs/built-barchart.png")
+ggsave("built-barchart.png")
 
 ## YES overwrite the file that is there now
 ## that's old output from me (Jenny)
